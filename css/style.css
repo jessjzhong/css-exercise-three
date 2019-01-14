@@ -52,6 +52,10 @@ nav {
   width: 25px;
 }
 
+.arrow-left {
+  padding-left: 15px;
+}
+
 h1 {
   font-weight: bold;
   font-size: 2em;
