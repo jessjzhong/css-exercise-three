@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -14,8 +18,42 @@ nav {
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
+  background-color: black;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  width: 420px;
+  background-color: lightgrey;
+}
+
+.location {
+  height: 100px;
+  padding: 15px;
+  border-bottom: 1px solid #4A4A4A;
+}
+
+.content {
+  display: inline-block;
+
+}
+
+.arrow {
+  float: right;
+  padding: 5%;
+  width: 10%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.location:hover {
+  background-color: darkgrey;
 }
